@@ -1,0 +1,58 @@
+.genderContainer {
+  margin: 0.5rem;
+
+  .labelContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .headerContainer {
+      display: flex;
+      align-items: center;
+    }
+  }
+  .radioButtonContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+
+    .radioButton {
+      background-color: #fff;
+      border: 1px solid #ccd0d5;
+      flex: 1;
+      font-weight: normal;
+      height: 36px;
+      margin: 0px 6px 6px 0px;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 4px;
+
+      .radioButtonLabel {
+        box-sizing: border-box;
+        color: #1c1e21;
+        font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        line-height: 36px;
+        padding: 0 28px 0 10px;
+      }
+
+      .radioButtonInput {
+        height: 36px;
+        margin: 0 10px 0 0;
+      }
+
+      &:hover {
+        border: 1px solid #ccd0d581;
+      }
+    }
+  }
+
+  // .selectTab {
+  //   flex: 1;
+  //   //   width:125px;
+  //   max-width: 125px;
+  //   height: 36px;
+  // }
+}

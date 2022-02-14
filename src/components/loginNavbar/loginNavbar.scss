@@ -1,0 +1,17 @@
+@use "../../../public/styles" as general;
+.logo {
+  font-size: 24px;
+  margin-left: 20px;
+  font-weight: 900 !important;
+  color: general.$primary;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  .link {
+    color: general.$primary;
+    text-decoration: none;
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,24 @@
+.terms {
+  font-size: 11px;
+  color: #777;
+  width: 98%;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  .signupButton {
+    background-color: #42b72a;
+    text-transform: none;
+    font-size: 18px;
+    padding: 5px 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    // width: 130px;
+
+    &:hover {
+      background-color: #69a74e;
+    }
+  }
+}

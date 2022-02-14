@@ -1,0 +1,17 @@
+.modalContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 432px;
+  max-width: 432px;
+  background-color: #fff;
+  padding: 2px 4px 3px;
+
+  .closeButton {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    z-index: 2;
+  }
+}

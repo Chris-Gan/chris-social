@@ -1,0 +1,72 @@
+@use "../../../public/styles" as general;
+
+.post {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  margin: 30px 0;
+  .postWrapper {
+    padding: 10px;
+
+    .postTop {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .postTopLeft {
+        display: flex;
+        align-items: center;
+
+        .postProfileImg {
+          height: 50px;
+          width: 50px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+
+        .postUserName {
+          font-size: 15px;
+          font-weight: 500;
+          margin: 0 10px;
+        }
+
+        .postDate {
+          font-size: 12px;
+        }
+      }
+    }
+
+    .postCenter {
+      margin: 20px 0;
+
+      .postImg {
+        margin-top: 20px;
+        width: 100%;
+        max-height: 500px;
+        object-fit: cover;
+      }
+    }
+
+    .postBottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .postBottomLeft {
+        display: flex;
+        align-items: center;
+
+        .postLikeCounter {
+          font-size: 15px;
+        }
+
+        .postCommentText {
+          cursor: pointer;
+          border-bottom: 1px dashed grey;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
